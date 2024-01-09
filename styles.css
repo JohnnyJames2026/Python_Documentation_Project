@@ -2,3 +2,18 @@ html {
     font-family: 'Open Sans', Arial, sans-serif;
     background-color: white;
 }
+
+#navbar {
+    position: fixed;
+    width: 16%;
+    height: 100%;
+    border-right: 3.25px solid black;
+    margin: 0;
+    top: 0;
+}
+
+#main-doc {
+    position: absolute;
+    left: 17%;
+    padding: 10px;
+}
