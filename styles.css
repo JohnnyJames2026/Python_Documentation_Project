@@ -1,19 +1,50 @@
 html {
     font-family: 'Open Sans', Arial, sans-serif;
     background-color: white;
+    min-width: 290px;
 }
 
 #navbar {
     position: fixed;
-    width: 16%;
+    width: 200px;
     height: 100%;
     border-right: 3.25px solid black;
+    background-color: rgb(75, 139, 190);
     margin: 0;
     top: 0;
+    left: 0;
+    min-width: 180px;
+}
+
+#nav-header {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
 
 #main-doc {
     position: absolute;
-    left: 17%;
-    padding: 10px;
+    left: 250px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 850px){
+    #navbar {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 20%;
+        left: 0;
+        right: 0;
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
+
+    #main-doc {
+        position: relative;
+        top: -10px;
+        width: 100px;
+        padding: 0 20;
+    }
 }
