@@ -87,21 +87,57 @@ img {
 }
 
 @media only screen and (max-width: 850px){
+
     #navbar {
-        position: relative;
+        position: absolute;
         top: 0;
         width: 100%;
-        height: 20%;
+        height: 26vh;
         left: 0;
         right: 0;
         border-right: none;
         border-bottom: 2px solid black;
+        margin-top: 0;
+        padding: 0;
     }
+
+    #nav-list {
+        position: fixed;
+        overflow-y: auto;
+        overflow-x: hidden;
+        width: 100%;
+        top: 40px;
+        bottom: 5px;
+        height: 22vh;
+        border-bottom: 2px solid black;
+        padding: 0;
+    }
+
+    #nav-list ul {
+        font-size: 1em;
+        height: 300px;
+        border-top: 2px solid black;
+
+    }
+
+    #nav-header {
+        z-index: 1;
+        height: 44px;
+        border: none;
+    }
+
 
     #main-doc {
         position: relative;
-        top: -10px;
-        width: 100px;
+        left: 0;
+        top: 300px;
+        width: 100%;
+        height: 100%;
         padding: 0 20;
+        z-index: 1;
+    }
+
+    #logo {
+        display: none;
     }
 }
