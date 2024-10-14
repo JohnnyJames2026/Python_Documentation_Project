@@ -51,7 +51,7 @@
             <p>A tuple is like a list, but a tuple can not be changed and it is ordered.</p>
             <p>variables and data types, hello world,print </p><br>
             <p>Below are some examples of each:</p>
-            <code>
+            <div id="block"><code>
                 a = 4 #int<br><br>
 
                 name = "susy" #string <br><br>
@@ -66,7 +66,7 @@
 
                 group = ("Aaron", 2) #tuple 
 
-            </code><br><br><br>
+            </code></div><br><br><br>
 
             <p>Now, lets see how we can use these data types and variables to solve logical problems...</p>
 
@@ -76,15 +76,15 @@
             <header>If Statements</header>
             <p>The if statement is a conditional control structure that allows you to execute certain code only when a specific condition is met. It evaluates a given expression, and if the result is True, the block of code associated with the if statement runs. If the condition evaluates to False, the program skips the block or evaluates any subsequent elif or else statements.</p>
             <p>An example would go as follows:</p>
-            <code>
+            <div id="block"><code>
                 x = 10<br><br>
 
                 if x > 5:<br><pre>
     print("x is greater than 5")</pre>
-            </code><br><br>
+            </code></div><br><br>
             <p>There are also conditions for the if statement called else and elif. If a condition is false, the code will immediately execute the lines following "else". If there is an elif in the conditional chain and the first if was false, then the code will evaluate the elif statement for True or False. If this is wrong, else is the final line ran along with it's following statements.</p>
             <p>Continuing from our last example...:</p>
-            <code>
+            <div id="block"><code>
                 x = 10<br><br><pre>
 
 if x > 15:<br>
@@ -93,7 +93,7 @@ elif x == 10:<br>
     print("x is equal to 10")<br>
 else:<br>
     print("x is less than 10")<br></pre>
-            </code><br><br><br>
+            </code></div><br><br><br>
             <p>The next topic is over iteration through loops</p>
 
 
@@ -108,21 +108,21 @@ else:<br>
             </ul><br>
             <p>The for loop is used to iterate over a sequence (like a list, tuple, dictionary, set, or string) or other iterable objects. With each iteration, the loop assigns the next item in the sequence to a variable and runs the indented block of code.</p>
             <p>For example, this is some code that iterates through a list:</p>
-            <code><pre>
+            <div id="block"><code><pre>
 fruits = ["apple", "banana", "cherry"]<br><br>
 for fruit in fruits:<br>
     print(fruit)<br><br>
 #also iterate a certain number of times. This is looping 5 times<br>
 for i in range(5):<br>
     print(i)</pre>
-            </code><br><br>
+            </code></div><br><br>
             <p>Now, the while loop runs as long as a specified condition remains True. It evaluates the condition before executing the code block, and if the condition is True, it executes the block and then rechecks the condition.</p>
-            <code><pre>
+            <div id="block"><code><pre>
 x = 0<br><br>
 while x < 5: <br>
     print(x)<br>
     x += 1</pre>
-            </code><br><br>
+            </code></div><br><br>
             <p>The only catch to the while loop is you must increment the iterating variable, as the example shows in x. This is the only way to iterate thte loop in steps. Otherwise, this will result in a never ending loop.</p>
 
 
@@ -133,23 +133,23 @@ while x < 5: <br>
             <p>Functions are reusable blocks of code that perform a specific task. They allow you to write code once and use it multiple times, making your programs more organized and modular. In Python, you can define your own functions or use built-in functions.</p>
             <h2>Defining a Function</h2>
             <p>You define a function using the def keyword followed by the function name, parentheses, and a colon. Inside the parentheses, you can include parameters that the function can take as input. The function body contains the code that runs when the function is called.</p>
-            <code>
+            <div id="block"><code>
                 def function_name(parameters):<br><br>
                 #function which greets a person<br>
                 def greet(name):<br><pre>
     print("Hello, " + name)</pre>
-            </code><br><br>
+            </code></div><br><br>
             <h2>Calling a Function</h2>
             <p>Once a function is defined, you call it by writing the function name followed by parentheses. If the function takes parameters, you pass the arguments inside the parentheses.</p>
-            <code>
+            <div id="block"><code>
                 greet("Alice")
-            </code><br><br>
+            </code></div><br><br>
             <h2>Function Parameters</h2>
             <p>A function can accept any number of parameters, separated by commas. You can also set default values for parameters or use keyword arguments.</p>
-            <code><pre>
+            <div id="block"><code><pre>
 def add_numbers(a, b): <br>
     return a + b</pre>
-            </code><br><br>
+            </code></div><br><br>
             <p>In this past example, the function returns a value. This means that when the function is called, the value that was calculated will be printed/used.</p>
 
         </section>

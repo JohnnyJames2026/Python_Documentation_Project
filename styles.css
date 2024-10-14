@@ -86,6 +86,42 @@ img {
     padding: 15px;
 }
 
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: 10px 0;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2rem;
+}
+
+code {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+#block {
+    background-color: rgb(235,235,235)
+}
+
+li {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2rem
+}
+
+.main-section {
+    margin-top: 5vh;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif
+}
+
 @media only screen and (max-width: 850px){
 
 
