@@ -133,7 +133,6 @@ h2 {
         position: absolute;
         top: 0;
         width: 100%;
-        background-color: rgb(75, 139, 190);
         height: 28.4vh;
         left: 0;
         right: 0;
@@ -146,6 +145,7 @@ h2 {
         position: absolute;
         overflow-y: auto;
         overflow-x: hidden;
+        background-color: rgb(75, 139, 190);
         width: 100%;
         top: 60px;
         bottom: 5px;
